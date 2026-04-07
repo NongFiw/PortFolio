@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio สำหรับยื่นฝึกสหกิจศึกษา - นักศึกษาวิทยาการคอมพิวเตอร์">
+    <title>My Portfolio | สหกิจศึกษา</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Kanit:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Mesh Gradient Background -->
+    <div class="mesh-gradient-bg"></div>
+
+    <!-- Noise Texture Overlay -->
+    <div class="noise-overlay"></div>
+
+    <!-- Mouse Follow Glow -->
+    <div id="mouse-glow" class="mouse-glow"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">MY PORTFOLIO</a>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">ประวัติ</a>
+                <a href="#projects" class="nav-link">โปรเจกต์</a>
+                <a href="#awards" class="nav-link">รางวัลและกิจกรรม</a>
+                <a href="#contact" class="nav-link">ติดต่อ</a>
+            </div>
+            <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+        <a href="#about" class="mobile-link">ประวัติ</a>
+        <a href="#projects" class="mobile-link">โปรเจกต์</a>
+        <a href="#awards" class="mobile-link">รางวัลและกิจกรรม</a>
+        <a href="#contact" class="mobile-link">ติดต่อ</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-profile-wrapper">
+                <div class="hero-profile-ring">
+                    <div class="hero-profile-img">
+                        <img src="assets/12627.jpg" alt="Profile Photo"
+                            onerror="this.src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgdmlld0JveD0iMCAwIDMwMCAzMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjMwMCIgaGVpZ2h0PSIzMDAiIGZpbGw9IiMyMjIiLz48Y2lyY2xlIGN4PSIxNTAiIGN5PSIxMjAiIHI9IjUwIiBmaWxsPSIjNTU1Ii8+PHBhdGggZD0iTTc1IDI1MEMxMDAgMTkwIDIwMCAxOTAgMjI1IDI1MCIgZmlsbD0iIzU1NSIvPjwvc3ZnPg=='">
+                    </div>
+                </div>
+            </div>
+            <div class="hero-name-banner">
+                <div class="marquee">
+                    <span>PORTFOLIO &nbsp;✦&nbsp; COOPERATIVE EDUCATION &nbsp;✦&nbsp; COMPUTER SCIENCE &nbsp;✦&nbsp;
+                        SOFTWARE DEVELOPER &nbsp;✦&nbsp;</span>
+                    <span>PORTFOLIO &nbsp;✦&nbsp; COOPERATIVE EDUCATION &nbsp;✦&nbsp; COMPUTER SCIENCE &nbsp;✦&nbsp;
+                        SOFTWARE DEVELOPER &nbsp;✦&nbsp;</span>
+                </div>
+            </div>
+            <a href="#about" class="hero-cta">
+                <span>เข้าชมพอร์ตฟอลิโอ</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+            </a>
+        </div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <a href="#hero" class="back-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M19 12H5M12 19l-7-7 7-7" />
+                    </svg>
+                    หน้าหลัก
+                </a>
+                <h2 class="section-title gradient-title">ABOUT ME</h2>
+                <a href="#projects" class="next-btn">
+                    โปรเจกต์
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Profile Card -->
+            <div class="about-grid">
+                <div class="profile-card glass-card">
+                    <h3 class="profile-name">ณภัทร เนียมธรรม</h3>
+                    <div class="profile-tags">
+                        <span class="tag tag-green">ชื่อเล่น: กาฟิวส์ </span>
+                        <span class="tag tag-white">อายุ 21 ปี</span>
+                    </div>
+                    <h4 class="profile-subtitle">☉ Profile Summary</h4>
+                    <p class="profile-desc">
+                        นักศึกษาวิทยาการคอมพิวเตอร์ ชั้นปีที่ 3 ที่หลงใหลในการเขียนโปรแกรมและการสร้างสรรค์ซอฟต์แวร์
+                        เป้าหมายคือการนำความรู้มาประยุกต์ใช้จริงในตำแหน่ง Software Developer
+                        ผมมีความสนใจในการพัฒนาระบบครอบคลุมทั้งหน้าบ้านและหลังบ้าน
+                        มีทักษะในการนำลอจิกเชิงเทคนิคมาเปลี่ยนเป็นแอปพลิเคชันที่ใช้งานได้จริง เป็นคนปรับตัวเก่ง
+                        พร้อมเปิดรับคำติชม และกระตือรือร้นที่จะเรียนรู้การทำงานร่วมกับทีมเพื่อสร้าง Product
+                        ที่มีคุณภาพสูงสุด
+                    </p>
+                </div>
+                <div class="profile-image-card glass-card">
+                    <img src="assets/12627.jpg" alt="Profile"
+                        onerror="this.parentElement.innerHTML='<div class=\'placeholder-img\'><svg width=\'80\' height=\'80\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'#555\' stroke-width=\'1.5\'><circle cx=\'12\' cy=\'8\' r=\'4\'/><path d=\'M5 20c0-4 3-7 7-7s7 3 7 7\'/></svg><p>ใส่รูปภาพที่ assets/profile.jpg</p></div>'">
+                </div>
+            </div>
+
+            <!-- Education & Skills -->
+            <div class="info-grid">
+                <div class="education-card glass-card">
+                    <h3 class="card-title">
+                        <span class="icon">🎓</span> Education
+                    </h3>
+                    <h4 class="edu-degree">ปริญญาตรี วิทยาการคอมพิวเตอร์</h4>
+                    <p class="edu-year">2023 - ปัจจุบัน</p>
+                    <p class="edu-uni">Huachiew Chalermprakiet University</p>
+                    <p class="edu-status">กำลังศึกษาอยู่ชั้นปีที่ 3</p>
+                    <div class="gpa-badge">GPA: 2.88</div>
+                </div>
+
+                <div class="skills-card glass-card">
+                    <h3 class="card-title">
+                        <span class="icon">🛠️</span> Technical Skills
+                    </h3>
+
+                    <div class="skill-category">
+                        <h4>💻 Programming Languages</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">C#</span>
+                            <span class="skill-tag">PHP</span>
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>🌐 Web & Database</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">SQL Server</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>🚀 Frameworks</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>🏗️ Infrastructure & Tools</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">VS Code</span>
+                        </div>
+                    </div>
+
+
+
+                    <div class="skill-category">
+                        <h4>🔭 Currently Exploring</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag explore">Cloud Computing</span>
+                            <span class="skill-tag explore">DevOps</span>
+                            <span class="skill-tag explore">CI/CD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <a href="#about" class="back-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M19 12H5M12 19l-7-7 7-7" />
+                    </svg>
+                    ย้อนกลับ
+                </a>
+                <h2 class="section-title gradient-title">SOFTWARE PROJECTS</h2>
+                <a href="#awards" class="next-btn">
+                    รางวัลและกิจกรรม
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card" data-aos="fade-up">
+                    <div class="project-type">ACADEMIC PROJECT</div>
+                    <h3 class="project-title">Library Facial Recognition Access System</h3>
+                    <p class="project-subtitle">ระบบแสแกนใบหน้าผู้เข้าใช้ห้องสมุด</p>
+                    <p class="project-desc">
+                        โปรเจกต์พัฒนาระบบสแกนใบหน้า (Facial Recognition)
+                        เพื่อใช้ในการบันทึกการเข้า-ออกห้องสมุดของนักศึกษาและบุคลากรแบบอัตโนมัติ
+                        โดยมีเป้าหมายเพื่อเพิ่มความรวดเร็ว ลดการสัมผัส และเพิ่มความปลอดภัยในการจัดการข้อมูลผู้ใช้งาน
+                    </p>
+                    <div class="key-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>Face Registration Module</li>
+                            <li>Real-Time Facial Recognition</li>
+                            <li>Automated Entry Logging</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-type">ACADEMIC PROJECT</div>
+                    <h3 class="project-title">Unieat</h3>
+                    <p class="project-subtitle">แพลตฟอร์มมาร์เก็ตเพลสจำหน่ายอาหารส่วนเกิน</p>
+                    <p class="project-desc">
+                        แพลตฟอร์มมาร์เก็ตเพลสที่ถูกพัฒนาขึ้นเพื่อเป็นตัวกลางในการเชื่อมต่อระหว่างร้านอาหารที่มี
+                        "อาหารส่วนเกิน" (Surplus Food) ในแต่ละวัน กับผู้บริโภคที่ต้องการอาหารคุณภาพดีในราคาประหยัด
+                    </p>
+                    <div class="key-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>Surplus Food Marketplace</li>
+                            <li>Vendor Management</li>
+                            <li>Hero Dashboard</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Figma</span>
+                        <span class="tech-tag">Business Analysis</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-type">ACADEMIC PROJECT</div>
+                    <h3 class="project-title">Password Strength Checker</h3>
+                    <p class="project-subtitle">ระบบตรวจสอบและประเมินความปลอดภัยของรหัสผ่าน</p>
+                    <p class="project-desc">
+                        สำหรับประเมินความแข็งแกร่งและระดับความปลอดภัยของรหัสผ่าน
+                        เพื่อช่วยให้ผู้ใช้งานสามารถตั้งรหัสผ่านที่คาดเดาได้ยากและปลอดภัยจากการถูกโจมตีทางไซเบอร์
+                    </p>
+                    <div class="key-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>Password Generator</li>
+                            <li>Check Breach</li>
+                            <li>Real-time Validation</li>
+                            <li>Visual Strength Meter</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">CSS3</span>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-type">ACADEMIC PROJECT</div>
+                    <h3 class="project-title">Smart Parking Reservation System</h3>
+                    <p class="project-subtitle">ระบบจองและตรวจสอบที่จอดรถ</p>
+                    <p class="project-desc">
+                        โปรเจกต์พัฒนาเว็บแอปพลิเคชันสำหรับอำนวยความสะดวกในการบริหารจัดการลานจอดรถ
+                        โดยผู้ใช้งานสามารถตรวจสอบสถานะช่องจอดรถที่ว่างอยู่แบบเรียลไทม์
+                        และทำรายการจองช่องจอดล่วงหน้าได้ก่อนเดินทางมาถึงสถานที่จริง
+                    </p>
+                    <div class="key-features">
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>Real-time Parking Status</li>
+                            <li>Advance Reservation</li>
+                            <li>Admin Management Panel</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="section awards-section">
+        <div class="container">
+            <div class="section-header">
+                <a href="#projects" class="back-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M19 12H5M12 19l-7-7 7-7" />
+                    </svg>
+                    ย้อนกลับ
+                </a>
+                <h2 class="section-title gradient-title">AWARDS & ACTIVITIES</h2>
+                <a href="#contact" class="next-btn">
+                    ช่องทางติดต่อ
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Awards -->
+            <div class="awards-category">
+                <h3 class="category-title gradient-badge">
+                    <span class="icon">🏆</span> รางวัล (AWARDS)
+                </h3>
+                <div class="activities-grid">
+                    <div class="activity-card glass-card">
+                        <div class="activity-img-wrapper">
+                            <img src="assets/c1.jpg" alt="รางวัลเกียรติคุณ 2567"
+                                onerror="this.parentElement.classList.add('no-img')">
+                            <div class="activity-img-placeholder">
+                                <span>📷</span>
+                                <small>ใส่รูปที่ assets/c1.jpg</small>
+                            </div>
+                        </div>
+                        <h4>START UP THAILAND LEAGUE 2025</h4>
+                        <p>มอบให้นักศึกษาที่เข้าร่วมการแข่งขัน</p>
+                    </div>
+
+                    <div class="activity-card glass-card">
+                        <div class="activity-img-wrapper">
+                            <img src="assets/c2.png" alt="รางวัลเกียรติคุณ 2567"
+                                onerror="this.parentElement.classList.add('no-img')">
+                            <div class="activity-img-placeholder">
+                                <span>📷</span>
+                                <small>ใส่รูปที่ assets/c1.jpg</small>
+                            </div>
+                        </div>
+                        <h4>Business Idea Discovery</h4>
+                        <p>ผ่านการเรียน E-Learning ครบถ้วนตามหลักสูตร</p>
+                    </div>
+
+                    <div class="activity-card glass-card">
+                        <div class="activity-img-wrapper">
+                            <img src="assets/c3.png" alt="รางวัลเกียรติคุณ 2567"
+                                onerror="this.parentElement.classList.add('no-img')">
+                            <div class="activity-img-placeholder">
+                                <span>📷</span>
+                                <small>ใส่รูปที่ assets/c1.jpg</small>
+                            </div>
+                        </div>
+                        <h4>พื้นฐานการสร้างเกมด้วย AI</h4>
+                        <p>ผ่านการเรียน E-Learning ครบถ้วนตามหลักสูตร</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Activities -->
+            <div class="awards-category">
+                <h3 class="category-title gradient-badge">
+                    <span class="icon">⭐</span> กิจกรรม (ACTIVITIES)
+                </h3>
+
+                <div class="activities-grid">
+                    <div class="activity-card glass-card">
+                        <div class="activity-img-wrapper">
+                            <img src="assets/start2025.jpg" alt="Startup Thailand League 2025"
+                                onerror="this.parentElement.classList.add('no-img')">
+                            <div class="activity-img-placeholder">
+                                <span>📷</span>
+                                <small>ใส่รูปที่ assets/activity-startup.jpg</small>
+                            </div>
+                        </div>
+                        <h4>Startup Thailand League 2025</h4>
+                        <p>นำเสนอผลงาน <strong>E-waste</strong> เว็บแอปฯ
+                            บริการรับซื้อขยะอิเล็กทรอนิกส์ นำมารีไซเคิล</p>
+                    </div>
+
+                    <div class="activity-card glass-card">
+                        <div class="activity-img-wrapper">
+                            <img src="assets/route.jpg" alt="Route Floor 4"
+                                onerror="this.parentElement.classList.add('no-img')">
+                            <div class="activity-img-placeholder">
+                                <span>📷</span>
+                                <small>ใส่รูปที่ assets/activity-route.jpg</small>
+                            </div>
+                        </div>
+                        <h4>Route Floor 4</h4>
+                        <p>โปรเจคตรวจและวิเคราะห์สัญญาณ Wifi ของมหาวิทยาลัยในตึกอาคารเรียนชั้นที่ 4</p>
+                    </div>
+
+                    <div class="activity-card glass-card">
+                        <div class="activity-img-wrapper">
+                            <img src="assets/lark.jpg" alt="Lark" onerror="this.parentElement.classList.add('no-img')">
+                            <div class="activity-img-placeholder">
+                                <span>📷</span>
+                                <small>ใส่รูปที่ assets/activity-lark.jpg</small>
+                            </div>
+                        </div>
+                        <h4>Lark</h4>
+                        <p>เข้าร่วมกิจกรรมที่ Lark มาให้ความรู้เกี่ยวกับการทำงาน</p>
+                    </div>
+
+                    <div class="activity-card glass-card">
+                        <div class="activity-img-wrapper">
+                            <img src="assets/bully.png" alt="Cyberbullying"
+                                onerror="this.parentElement.classList.add('no-img')">
+                            <div class="activity-img-placeholder">
+                                <span>📷</span>
+                                <small>ใส่รูปที่ assets/activity-cyberbullying.jpg</small>
+                            </div>
+                        </div>
+                        <h4>Cyberbullying : Law & Ethics perspective view</h4>
+                        <p>อบรมเกี่ยวกับจรรยาบรรณทางวิชาชีพและทางสังคมคอมพิวเตอร์</p>
+                    </div>
+
+                    <div class="activity-card glass-card">
+                        <div class="activity-img-wrapper">
+                            <img src="assets/erp.png" alt="ERP Workshop"
+                                onerror="this.parentElement.classList.add('no-img')">
+                            <div class="activity-img-placeholder">
+                                <span>📷</span>
+                                <small>ใส่รูปที่ assets/activity-erp.jpg</small>
+                            </div>
+                        </div>
+                        <h4>Workshop: ERP for Digital Business Development</h4>
+                        <p>อบรมเกี่ยวกับจรรยาบรรณทางวิชาชีพและทางสังคมคอมพิวเตอร์</p>
+                    </div>
+
+                    <div class="activity-card glass-card">
+                        <div class="activity-img-wrapper">
+                            <img src="assets/open.png" alt="ERP Workshop"
+                                onerror="this.parentElement.classList.add('no-img')">
+                            <div class="activity-img-placeholder">
+                                <span>📷</span>
+                                <small>ใส่รูปที่ assets/activity-erp.jpg</small>
+                            </div>
+                        </div>
+                        <h4>HCU Open House</h4>
+                        <p>ให้ความรู้เรื่องการเข้าหัวสาย LAN แก่ผู้ที่มาเข้าฐาน</p>
+                    </div>
+
+                    <div class="activity-card glass-card">
+                        <div class="activity-img-wrapper">
+                            <img src="assets/bi.png" alt="ERP Workshop"
+                                onerror="this.parentElement.classList.add('no-img')">
+                            <div class="activity-img-placeholder">
+                                <span>📷</span>
+                                <small>ใส่รูปที่ assets/activity-erp.jpg</small>
+                            </div>
+                        </div>
+                        <h4>CDP & Power BI Workshop</h4>
+                        <p>อบรมเกี่ยวกับการใช้งาน Power BI</p>
+                    </div>
+
+                    <div class="activity-card glass-card">
+                        <div class="activity-img-wrapper">
+                            <img src="assets/3.png" alt="ERP Workshop"
+                                onerror="this.parentElement.classList.add('no-img')">
+                            <div class="activity-img-placeholder">
+                                <span>📷</span>
+                                <small>ใส่รูปที่ assets/activity-erp.jpg</small>
+                            </div>
+                        </div>
+                        <h4>ปัจฉิมนิเท่ 3</h4>
+                        <p>พิธีกรอบรมเกี่ยวกับการหาที่ฝึกงาน </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title gradient-title contact-title">ช่องทางติดต่อ (CONTACT)</h2>
+
+            <div class="contact-grid">
+                <div class="contact-info-card glass-card">
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <a href="mailto:your-email@gmail.com">661673@hcu.ac.th</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <span>Tel: 090-974-7874</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">💬</span>
+                        <span>LINE ID: garfieldnpnt</span>
+                    </div>
+                    <div class="contact-divider"></div>
+                    <h4 class="github-title">GITHUB REPOSITORIES</h4>
+                    <div class="contact-item">
+                        <span class="contact-icon">🔗</span>
+                        <a href="https://github.com/NongFiw" target="_blank">github.com/NongFiw</a>
+                    </div>
+                </div>
+
+                <div class="thankyou-card glass-card">
+                    <div class="quote-mark">❝</div>
+                    <h3 class="thankyou-title">THANK YOU</h3>
+                    <p class="thankyou-quote">"ขอบคุณที่สละเวลาเยี่ยมชมพอร์ตโฟลิโอของผมครับ"</p>
+                    <p class="thankyou-desc">
+                        สำหรับผม<span class="highlight">การพัฒนาซอฟต์แวร์ไม่ใช่แค่การเขียนโค้ดให้ระบบทำงานได้</span>
+                        แต่คือการสร้างประสบการณ์ที่ดีและช่วยแก้ปัญหาให้กับผู้ใช้งานจริง
+                    </p>
+                    <p class="thankyou-closing">
+                        พอร์ตโฟลิโอเว็บไซต์นี้เป็นเครื่องสะท้อนถึงความมุ่งมั่นนั้น
+                        และเป็นเพียงจุดเริ่มต้นในเส้นทางการเรียนรู้ของผม ซึ่งผมพร้อมเสมอที่จะเปิดรับสิ่งใหม่ ๆ
+                        และพัฒนาทักษะให้เติบโตยิ่งขึ้นต่อไปในอนาคต
+                    </p>
+                    <div class="emoji-wave">(◕‿◕)ノ</div>
+                </div>
+            </div>
+
+            <div class="contact-nav">
+                <a href="#awards" class="nav-btn brutal-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M19 12H5M12 19l-7-7 7-7" />
+                    </svg>
+                    ย้อนกลับ
+                </a>
+                <a href="#hero" class="nav-btn brutal-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 12l9-9 9 9M5 10v10h14V10" />
+                    </svg>
+                    กลับหน้าหลัก
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Portfolio — Naphat Niamtham</p>
+    </footer>
+
+    <!-- Image Lightbox Overlay -->
+    <div id="lightbox-overlay" class="lightbox-overlay">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <img id="lightbox-img" src="" alt="Activity Image">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
