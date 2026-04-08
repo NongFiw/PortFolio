@@ -115,12 +115,15 @@ img {
     0% {
         transform: translate(0, 0) rotate(0deg);
     }
+
     33% {
         transform: translate(30px, -20px) rotate(1deg);
     }
+
     66% {
         transform: translate(-20px, 30px) rotate(-1deg);
     }
+
     100% {
         transform: translate(10px, 10px) rotate(0.5deg);
     }
@@ -488,9 +491,12 @@ img {
 }
 
 @keyframes float {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-15px);
     }
@@ -500,6 +506,7 @@ img {
     from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }
@@ -542,6 +549,7 @@ img {
     from {
         transform: translateX(0);
     }
+
     to {
         transform: translateX(-50%);
     }
@@ -653,23 +661,59 @@ img {
 }
 
 @keyframes orbFloat1 {
-    0%, 100% { transform: translate(0, 0); }
-    25% { transform: translate(30px, -40px); }
-    50% { transform: translate(-20px, 20px); }
-    75% { transform: translate(40px, 30px); }
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(30px, -40px);
+    }
+
+    50% {
+        transform: translate(-20px, 20px);
+    }
+
+    75% {
+        transform: translate(40px, 30px);
+    }
 }
 
 @keyframes orbFloat2 {
-    0%, 100% { transform: translate(0, 0); }
-    25% { transform: translate(-40px, 30px); }
-    50% { transform: translate(30px, -20px); }
-    75% { transform: translate(-20px, -40px); }
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(-40px, 30px);
+    }
+
+    50% {
+        transform: translate(30px, -20px);
+    }
+
+    75% {
+        transform: translate(-20px, -40px);
+    }
 }
 
 @keyframes orbFloat3 {
-    0%, 100% { transform: translate(0, 0); }
-    33% { transform: translate(20px, -30px); }
-    66% { transform: translate(-30px, 20px); }
+
+    0%,
+    100% {
+        transform: translate(0, 0);
+    }
+
+    33% {
+        transform: translate(20px, -30px);
+    }
+
+    66% {
+        transform: translate(-30px, 20px);
+    }
 }
 
 /* Remove old grid-bg pattern */
